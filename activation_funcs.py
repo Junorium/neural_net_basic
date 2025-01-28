@@ -25,3 +25,6 @@ def sigmoid(x, W, b):
   return 1 / (1 + np.exp(-z))
 
 sigmoid(input_A, weight_A, bias_A)
+
+def relu(w, X, b):
+  return None
